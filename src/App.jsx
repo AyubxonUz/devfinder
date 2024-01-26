@@ -163,7 +163,7 @@ function App() {
                     alt=""
                   />
                 </div>
-                <div className="ml-[37px] max-[466px]:ml-[19px]">
+                <div className="ml-[41px]">
                   <div className="grid grid-cols-2 items-center max-[730px]:block">
                     <p className="text-[#2B3442] text-[26px] font-bold max-[466px]:text-[16px]">
                       {gitData && gitData.name ? gitData.name : "Not Available"}
@@ -179,7 +179,7 @@ function App() {
                       ? "@" + gitData.login
                       : "Not Available"}
                   </p>
-                  <p className="text-[#4B6A9B] mt-5 text-[15px] font-normal max-[730px]:mt-[34px] max-[730px]:ml-[-120px] max-[466px]:ml-[-95px]">
+                  <p className="text-[#4B6A9B] max-w-[400px] mt-5 text-[15px] font-normal max-[730px]:mt-[34px] max-[730px]:ml-[-135px] max-[466px]:ml-[-95px]">
                     {gitData && gitData.bio
                       ? gitData.bio
                       : "This profile has no bio"}
