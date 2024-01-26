@@ -4,6 +4,12 @@
 
 @layer components {
   .max-container {
-    @apply max-w-[730px] mx-auto p-[0px] max-[466px]:p-[00px];
+    @apply max-w-[730px] mx-auto p-[50px] max-[466px]:p-[20px];
+  }
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 }
