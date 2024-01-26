@@ -186,7 +186,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="bg-[#F6F8FF] h-[85px] w-[510px] ml-auto rounded-[10px] grid grid-cols-3 max-[730px]:w-full max-[466px]-h-[85px]">
+              <div className="bg-[#F6F8FF] h-[85px] w-[510px] ml-auto rounded-[10px] grid grid-cols-3 max-[730px]:w-full max-[466px]-h-[85px] max-[780px]:w-[480px]">
                 <div className="ml-8 m-4 max-[466px]:m-[18px] max-[466px]:grid max-[466px]:self-center max-[466px]:justify-items-center">
                   <p className="text-[#4B6A9B] text-[13px] font-normal max-[466px]:text-[11px]">
                     Repos
